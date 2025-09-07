@@ -1,0 +1,38 @@
+{
+    "logreg": {
+        "C": "[1e-4, 1e2]",
+        "penalty": [
+            "l2"
+        ]
+    },
+    "rf": {
+        "n_estimators": "[50,500]",
+        "max_depth": "[3,20]",
+        "max_features": [
+            "sqrt",
+            "log2"
+        ]
+    },
+    "xgb": {
+        "n_estimators": "[100,500]",
+        "max_depth": "[3,15]",
+        "learning_rate": "[0.01,0.3]",
+        "subsample": "[0.5,1.0]"
+    },
+    "lgbm": {
+        "num_leaves": "[16,128]",
+        "max_depth": "[-1,20]",
+        "learning_rate": "[1e-3,0.3]",
+        "n_estimators": "[50,500]"
+    },
+    "catboost": {
+        "depth": "[3,10]",
+        "iterations": "[100,500]",
+        "learning_rate": "[0.01,0.3]"
+    },
+    "mlp": {
+        "hidden_layer_sizes": "[(50,), (100,), (50,50), (100,50)]",
+        "alpha": "[1e-5,1e-2]",
+        "learning_rate_init": "[1e-4,1e-1]"
+    }
+}
