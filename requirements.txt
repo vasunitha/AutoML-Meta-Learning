@@ -19,7 +19,7 @@ idna==3.6
 incremental==24.7.2
 itemadapter==0.11.0
 jmespath==1.0.1
-joblib==1.4.2
+joblib==1.4.0
 keras==2.11.0
 libclang==15.0.6.1
 lxml==5.4.0
@@ -47,3 +47,4 @@ urllib3==2.4.0
 virtualenv==20.31.2
 w3lib==2.3.1
 zope.interface==7.2
+
